@@ -1,0 +1,28 @@
+﻿{
+  "variants": [
+    "full",
+    "wo_lidar",
+    "wo_handcrafted_safety"
+  ],
+  "labels": {
+    "full": "HW_GA_SAC",
+    "wo_lidar": "HW_GA_SAC_wo_lidar",
+    "wo_handcrafted_safety": "HW_GA_SAC_wo_handcrafted_safety"
+  },
+  "model_seeds": [
+    1,
+    2,
+    3
+  ],
+  "city_seeds": [
+    1,
+    2,
+    3,
+    4,
+    42
+  ],
+  "episodes_per_variant_seed_city": 200,
+  "total_episode_target": 9000,
+  "source": "merged from balanced first/second server shards on 2026-06-29",
+  "city42_merge": "first shard episode 0-99, second shard episode 100-199"
+}

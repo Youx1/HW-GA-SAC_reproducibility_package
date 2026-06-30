@@ -1,0 +1,6 @@
+base_config: config_mujoco_SAC_Large_seed1.yaml
+
+training:
+  seed: 5
+  log_dir: "./logs/SAC_Large/seed_5"
+  model_dir: "./models/SAC_Large/seed_5"

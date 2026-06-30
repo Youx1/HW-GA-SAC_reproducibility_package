@@ -1,0 +1,27 @@
+base_config: ../sac/config_mujoco_sac_seed3.yaml
+
+algorithm:
+  name: td3
+
+td3:
+  learning_rate: 0.0002
+  actor_learning_rate: 0.0001
+  critic_learning_rate: 0.0002
+  gamma: 0.998
+  tau: 0.002
+  critic_loss: "huber"
+  critic_grad_clip: 10.0
+  policy_noise: 0.2
+  noise_clip: 0.5
+  exploration_noise: 0.2
+  policy_delay: 2
+  bootstrap_on_timeout: true
+  device: "cuda"
+  reward_scale: 1.0
+
+training:
+  seed: 3
+  total_steps: 1500000
+  eval_frequency: 1500000
+  log_dir: "./logs/td3/seed_3"
+  model_dir: "./models/td3/seed_3"

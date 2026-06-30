@@ -1,0 +1,8 @@
+method,formal_models,seed_sweep_csv,unified_task_csv
+GRU_SAC,5,25,25
+HW_GA_SAC,5,25,25
+LSTM_SAC,5,25,25
+PPO,5,25,25
+SAC,5,25,25
+SAC_Large,5,25,25
+TD3,5,25,25

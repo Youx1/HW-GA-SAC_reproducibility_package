@@ -1,0 +1,6 @@
+base_config: config_mujoco_GRU_SAC_seed1.yaml
+
+training:
+  seed: 4
+  log_dir: "./logs/GRU_SAC/seed_4"
+  model_dir: "./models/GRU_SAC/seed_4"

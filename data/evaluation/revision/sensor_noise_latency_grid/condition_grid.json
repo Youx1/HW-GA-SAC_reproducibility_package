@@ -1,0 +1,50 @@
+{
+  "clean": {
+    "condition_group": "clean",
+    "image_noise_sigma": 0.0,
+    "range_noise_sigma": 0.0,
+    "latency_ms": 0.0
+  },
+  "mild_noise": {
+    "condition_group": "noise_curve",
+    "image_noise_sigma": 0.01,
+    "range_noise_sigma": 0.01,
+    "latency_ms": 0.0
+  },
+  "moderate_noise": {
+    "condition_group": "noise_curve",
+    "image_noise_sigma": 0.03,
+    "range_noise_sigma": 0.03,
+    "latency_ms": 0.0
+  },
+  "latency_10ms": {
+    "condition_group": "latency_curve",
+    "image_noise_sigma": 0.0,
+    "range_noise_sigma": 0.0,
+    "latency_ms": 10.0
+  },
+  "latency_30ms": {
+    "condition_group": "latency_curve",
+    "image_noise_sigma": 0.0,
+    "range_noise_sigma": 0.0,
+    "latency_ms": 30.0
+  },
+  "latency_50ms": {
+    "condition_group": "latency_curve",
+    "image_noise_sigma": 0.0,
+    "range_noise_sigma": 0.0,
+    "latency_ms": 50.0
+  },
+  "mild_noise_latency_30ms": {
+    "condition_group": "combined",
+    "image_noise_sigma": 0.01,
+    "range_noise_sigma": 0.01,
+    "latency_ms": 30.0
+  },
+  "moderate_noise_latency_50ms": {
+    "condition_group": "combined",
+    "image_noise_sigma": 0.03,
+    "range_noise_sigma": 0.03,
+    "latency_ms": 50.0
+  }
+}

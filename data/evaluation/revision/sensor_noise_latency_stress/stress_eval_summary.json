@@ -1,0 +1,80 @@
+[
+  {
+    "method": "SAC",
+    "condition": "clean",
+    "episodes": 100,
+    "success_rate": 0.89,
+    "collision_rate": 0.03,
+    "timeout_rate": 0.08,
+    "reward_mean": 186.4724673525891,
+    "steps_mean": 899.11,
+    "final_distance_mean": 30.802055921554565,
+    "min_obstacle_distance_mean": 20.908557848930357,
+    "avg_speed_mean": 13.488385209017029
+  },
+  {
+    "method": "SAC",
+    "condition": "noise",
+    "episodes": 100,
+    "success_rate": 0.89,
+    "collision_rate": 0.02,
+    "timeout_rate": 0.09,
+    "reward_mean": 186.0531683584496,
+    "steps_mean": 909.48,
+    "final_distance_mean": 27.805191822052002,
+    "min_obstacle_distance_mean": 20.671300291717053,
+    "avg_speed_mean": 13.461986009146015
+  },
+  {
+    "method": "SAC",
+    "condition": "noise_latency",
+    "episodes": 100,
+    "success_rate": 0.9,
+    "collision_rate": 0.01,
+    "timeout_rate": 0.09,
+    "reward_mean": 188.73388898370428,
+    "steps_mean": 932.93,
+    "final_distance_mean": 19.995015449523926,
+    "min_obstacle_distance_mean": 21.024522943329067,
+    "avg_speed_mean": 13.440078778683205
+  },
+  {
+    "method": "HW_GA_SAC",
+    "condition": "clean",
+    "episodes": 250,
+    "success_rate": 0.9359999999999999,
+    "collision_rate": 0.024,
+    "timeout_rate": 0.04,
+    "reward_mean": 200.33611872583305,
+    "steps_mean": 968.4440000000001,
+    "final_distance_mean": 25.93201788330078,
+    "min_obstacle_distance_mean": 12.841538478888571,
+    "avg_speed_mean": 13.605696416589424
+  },
+  {
+    "method": "HW_GA_SAC",
+    "condition": "noise",
+    "episodes": 250,
+    "success_rate": 0.9480000000000001,
+    "collision_rate": 0.004,
+    "timeout_rate": 0.048,
+    "reward_mean": 205.3285793187352,
+    "steps_mean": 983.344,
+    "final_distance_mean": 16.45134501647949,
+    "min_obstacle_distance_mean": 12.813147394686936,
+    "avg_speed_mean": 13.512531359052389
+  },
+  {
+    "method": "HW_GA_SAC",
+    "condition": "noise_latency",
+    "episodes": 250,
+    "success_rate": 0.96,
+    "collision_rate": 0.004,
+    "timeout_rate": 0.036,
+    "reward_mean": 210.19671220355673,
+    "steps_mean": 979.872,
+    "final_distance_mean": 15.114368034362792,
+    "min_obstacle_distance_mean": 12.89814867730625,
+    "avg_speed_mean": 13.482643239758222
+  }
+]

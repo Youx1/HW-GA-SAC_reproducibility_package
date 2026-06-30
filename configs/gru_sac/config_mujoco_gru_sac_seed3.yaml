@@ -1,0 +1,23 @@
+base_config: ../sac/config_mujoco_sac_seed3.yaml
+
+algorithm:
+  name: gru-sac
+
+transformer: null
+LSTM_SAC: null
+gru:
+  d_model: 128
+  num_layers: 3
+  dropout: 0.0
+  max_seq_length: 8
+
+sequence:
+  burn_in_steps: 6
+  learn_steps: 2
+
+training:
+  seed: 3
+  total_steps: 1500000
+  eval_frequency: 1500000
+  log_dir: "./logs/GRU_SAC/seed_3"
+  model_dir: "./models/GRU_SAC/seed_3"

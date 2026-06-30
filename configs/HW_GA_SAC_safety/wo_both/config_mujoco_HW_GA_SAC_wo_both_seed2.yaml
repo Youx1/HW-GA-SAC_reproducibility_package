@@ -1,0 +1,11 @@
+base_config: ../../HW_GA_SAC/config_mujoco_HW_GA_SAC_seed2.yaml
+env:
+  state_dim: 26
+  mujoco:
+    weak_lidar_sectors: 0
+    include_vertical_clearance_in_state: false
+    safety_aux_dim: 0
+training:
+  seed: 2
+  log_dir: ./logs/HW_GA_SAC_safety/wo_both/seed_2
+  model_dir: ./models/HW_GA_SAC_safety/wo_both/seed_2

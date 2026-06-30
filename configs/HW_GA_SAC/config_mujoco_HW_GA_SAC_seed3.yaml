@@ -1,0 +1,325 @@
+
+sac:
+  learning_rate: 0.0002
+  actor_learning_rate: 0.0001
+  actor_update_interval: 4
+  alpha_learning_rate: 0.0001
+  gamma: 0.998
+  tau: 0.002
+  alpha: 0.1
+  alpha_min: 0
+  alpha_max: 1
+  n_step: 1
+  bootstrap_on_timeout: true
+  auto_alpha: true
+  target_entropy_mode: "paper"
+  target_update_interval: 1
+  device: "cuda"
+  amp_enabled: true
+  reward_scale: 1.0
+  gradient_clip:
+    actor: 0.5
+    critic: 1.0
+  lr_schedule:
+    enabled: false
+    decay_start_step: 500000
+    decay_end_step: 1000000
+    min_ratio: 0.1
+
+transformer:
+  d_model: 128
+  nhead: 4
+  num_layers: 3
+  dim_feedforward: 256
+  dropout: 0.0
+  max_seq_length: 8
+  attention_regularization_weight: 0.0
+
+sequence:
+  burn_in_steps: 6
+  learn_steps: 2
+
+reward:
+  success_reward: 150.0
+  collision_penalty: -150.0
+  timeout_penalty: -90.0
+  progress_weight: 100.0
+  closing_speed_weight: 0.012
+  closing_speed_cap: 8.0
+  living_cost: 0.0025
+  safety_weight: 0.6
+  safety_speed_beta: 0.75
+  safety_margin:
+    base: 4.0
+    reaction_time: 0.3
+    safe_decel: 5.0
+    min: 5.0
+    max: 12.0
+  gate:
+    danger_ratio: 0.4
+    full_ratio: 1.0
+    power: 1.5
+
+env:
+  type: "mujoco"
+  name: "MuJoCoUAVCity2000"
+  max_steps: 2200
+  state_dim: 42
+  action_dim: 4
+  action_range: [-1.0, 1.0]
+  goal_threshold: 10.0
+  world_size: 2000.0
+
+  mujoco:
+    mujoco_path: "D:/mujoco-3.6.0-windows-x86_64"
+    dt: 0.1
+    frame_skip: 5
+    max_velocity: 18.0
+    max_vertical_velocity: 10.0
+    max_acceleration: 10.0
+    control_mode: "velocity_command"
+    observation_profile: "hierarchical_waypoint"
+    goal_metrics_dim: 7
+    safety_aux_dim: 6
+    velocity_tracking_gain: 5.0
+    linear_damping: 0.2
+    enable_yaw_control: true
+    translation_action_frame: "body"
+    local_waypoint_frame: "body"
+    local_waypoint_radius_xy: 20.0
+    local_waypoint_radius_z: 8.0
+    local_waypoint_pos_kp: 0.75
+    local_waypoint_vel_kd: 0.2
+    local_waypoint_max_speed: 11.0
+    local_waypoint_max_vertical_speed: 5.5
+    local_waypoint_near_goal_radius: 90.0
+    local_waypoint_near_goal_speed_scale: 1.0
+    local_waypoint_near_goal_radius_scale: 0.5
+    local_waypoint_goal_capture_radius: 40.0
+    local_waypoint_goal_capture_blend: 0.5
+    body_forward_action_scale: 1.0
+    body_lateral_action_scale: 0.65
+    body_backward_action_scale: 0.4
+    goal_observation_frame: "body"
+    lidar_observation_frame: "body"
+    max_yaw_rate_deg: 80.0
+    yaw_response: 4.0
+    yaw_residual_scale: 1.0
+    initial_heading_range_deg: [-180.0, 180.0]
+    action_smoothing: 1.0
+    camera_mode: "first_person"
+    camera_view_camera_name: "nav_front"
+    camera_follow_distance: 95.0
+    camera_follow_elevation: -18.0
+    camera_follow_azimuth: 180.0
+    camera_follow_lookat_z_offset: 10.0
+    camera_chase_smoothing: 0.22
+    camera_forward_lookahead: 55.0
+    drone_radius: 1.0
+    drone_mass: 1.5
+    lidar_max_range: 120.0
+    weak_lidar_sectors: 8
+    vertical_probe_radius: 5.0
+    include_attitude_in_state: true
+    include_vertical_clearance_in_state: true
+    include_time_remaining_in_state: true
+    include_yaw_rate_in_state: true
+    include_last_action_in_state: true
+    multimodal:
+      enabled: true
+      camera_names: ["nav_front"]
+      image_height: 96
+      image_width: 128
+      grayscale: true
+      update_interval_steps: 1
+      nav_front_pitch_deg: 5
+      nav_front_fovy_deg: 80
+      spatial_pool_size: [2, 2]
+      encoder_dim: 128
+      safety_encoder_dim: 48
+      image_stem_channels: 32
+      image_hidden_channels: 48
+    world_x_range: [-1000.0, 1000.0]
+    world_y_range: [-1000.0, 1000.0]
+    z_floor: 2.0
+    z_ceil: 180.0
+    z_start: 50.0
+    start_xy_range: [-40.0, 40.0]
+    goal_max_distance: 1000.0
+    min_start_goal_distance: 700.0
+    start_min_clearance: 10.0
+    goal_min_clearance: 16.0
+    mission:
+      start_radius: 35.0
+      goal_distance_range: [850.0, 1000.0]
+      goal_altitude_range: [50.0, 50.0]
+    city:
+      enabled: true
+      seed: 42
+      rows: 12
+      cols: 12
+      district_margin: 28.0
+      street_width: 21.0
+      avenue_every: 3
+      avenue_width: 34.0
+      minor_street_width_jitter: 3.0
+      block_size_jitter: 0.34
+      block_offset_jitter: 0.3
+      multi_lot_probability: 0.6
+      triple_lot_probability: 0.28
+      courtyard_probability: 0.24
+      building_gap: 3.6
+      building_width_range: [18.0, 54.0]
+      building_depth_range: [18.0, 52.0]
+      building_height_range: [24.0, 92.0]
+      podium_height_range: [10.0, 28.0]
+      tall_building_height_range: [88.0, 138.0]
+      super_tall_height_range: [130.0, 170.0]
+      rooftop_height_range: [4.0, 12.0]
+      highrise_core_radius: 210.0
+      super_highrise_core_radius: 120.0
+      tall_building_probability: 0.82
+      super_tall_probability: 0.38
+      rooftop_probability: 0.68
+      second_tower_probability: 0.42
+      skybridge_probability: 0.16
+      diagonal_avenue_count: 2
+      diagonal_avenue_width: 27.0
+      diagonal_avenue_offset: 70.0
+      diagonal_avenue_jitter_deg: 10.0
+      irregular_plaza_count: 2
+      plaza_radius_x_range: [28.0, 66.0]
+      plaza_radius_y_range: [22.0, 54.0]
+      plaza_ring_min_radius: 42.0
+      plaza_ring_max_radius: 180.0
+      cbd_radius: 156.0
+      mixed_use_radius: 286.0
+      downtown_center_offset: [34.0, -18.0]
+      secondary_center_offset: [-126.0, 94.0]
+      industrial_x_bias: 0.95
+      industrial_y_bias: 0.65
+      industrial_threshold: 0.18
+      missing_building_probability: 0.015
+      center_plaza_half_extent: 24.0
+      palette:
+        - [0.62, 0.66, 0.72, 1.0]
+        - [0.74, 0.56, 0.38, 1.0]
+        - [0.44, 0.58, 0.72, 1.0]
+        - [0.54, 0.70, 0.56, 1.0]
+    wind:
+      enabled: true
+      base_speed_range: [2.0, 4.0]
+      base_heading_range_deg: [0.0, 360.0]
+      base_vertical_speed_range: [0.0, 0.0]
+      gust:
+        enabled: true
+        theta: 0.42
+        sigma: 0.95
+        clip: 3.2
+      regime:
+        enabled: true
+        duration_range: [4.0, 8.0]
+        prevent_self_transition: true
+        modes:
+          nominal:
+            weight: 1.0
+            gust_sigma_scale: 0.8
+            gust_theta_scale: 0.8
+            turbulence_scale: 0.75
+          canyon_accelerated:
+            weight: 0.9
+            mean_flow_scale: 1.06
+            gust_sigma_scale: 0.88
+            gust_theta_scale: 0.85
+            gust_clip_scale: 0.88
+            canyon_gain_scale: 1.25
+            canyon_shear_scale: 1.15
+            wake_attenuation_scale: 0.88
+            turbulence_scale: 0.9
+          wake_turbulent:
+            weight: 0.85
+            mean_flow_scale: 0.92
+            gust_sigma_scale: 1.1
+            gust_theta_scale: 1.1
+            gust_clip_scale: 1.0
+            canyon_gain_scale: 0.88
+            canyon_shear_scale: 1.0
+            wake_attenuation_scale: 1.2
+            turbulence_scale: 1.2
+          crosswind_shear:
+            weight: 0.8
+            mean_flow_scale: 1.0
+            gust_sigma_scale: 1.0
+            gust_theta_scale: 1.2
+            gust_clip_scale: 0.98
+            canyon_gain_scale: 0.96
+            canyon_shear_scale: 1.45
+            wake_attenuation_scale: 1.05
+            turbulence_scale: 1.0
+      urban:
+        background_turbulence_sigma: 0.08
+        min_reference_flow_speed: 0.75
+        obstacle_height_threshold: 36.0
+        altitude_margin: 6.0
+        search_radius: 95.0
+        canyon_along_overlap: 60.0
+        canyon_max_width: 52.0
+        canyon_gain_max: 1.65
+        canyon_gain_strength: 0.7
+        canyon_shear_strength: 0.18
+        canyon_shear_max_speed: 1.8
+        canyon_shear_theta: 1.35
+        canyon_shear_sigma: 0.24
+        canyon_turbulence_sigma: 0.55
+        wake_length_scale: 5.8
+        wake_width_scale: 1.8
+        wake_height_margin: 24.0
+        wake_attenuation_max: 0.72
+        wake_turbulence_sigma: 1.75
+        turbulence_clip: 4.5
+        vertical_turbulence_scale: 0.14
+      aero:
+        internal_linear_damping: 0.2
+        linear_gain: 0.32
+        quadratic_gain: 0.06
+        quadratic_reference_speed: 8.0
+      visualization:
+        always_build: false
+        grid_rows: 7
+        grid_cols: 7
+        center_mode: "drone"
+        extent_x: 220.0
+        extent_y: 220.0
+        altitude_mode: "drone"
+        altitude_offset: 0.0
+        update_interval: 0.12
+        arrow_min_length: 4.0
+        arrow_max_length: 18.0
+        arrow_thickness: 0.45
+        max_display_speed: 14.0
+        alpha: 0.78
+
+training:
+  seed: 3
+  eval_seed_offset: 100
+  deterministic_torch: false
+  num_envs: 4
+  total_steps: 1500000
+  batch_size: 64
+  buffer_size: 200000
+  warmup_steps: 10000
+  update_frequency: 32
+  max_updates_per_iteration: 4
+  update_log_frequency: 1024
+  train_log_interval: 400
+  episode_log_interval: 16
+  eval_frequency: 1500000
+  eval_episodes: 20
+  save_frequency: 100000
+  isolate_model_runs: true
+  profile_timing: false
+  log_dir: "./logs/HW_GA_SAC/seed_3"
+  model_dir: "./models/HW_GA_SAC/seed_3"
+network:
+  hidden_dims: [256, 256]
+  activation: "ReLU"

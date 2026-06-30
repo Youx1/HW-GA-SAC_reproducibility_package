@@ -1,0 +1,2 @@
+variant,seeds,episodes,success_rate,collision_rate,timeout_rate,reward_mean,steps_mean,final_distance_mean,best_distance_mean,min_obstacle_distance_mean,avg_speed_mean
+wo_lidar,"1,2,3",60,0.5166666666666667,0.4666666666666667,0.016666666666666666,35.206808931180845,621.55,241.2503185113271,241.05638149579366,20.911295445760093,13.464889415871866

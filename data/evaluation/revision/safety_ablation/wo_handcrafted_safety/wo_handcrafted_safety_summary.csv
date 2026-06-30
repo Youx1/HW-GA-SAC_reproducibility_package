@@ -1,0 +1,2 @@
+variant,seeds,episodes,success_rate,collision_rate,timeout_rate,reward_mean,steps_mean,final_distance_mean,best_distance_mean,min_obstacle_distance_mean,avg_speed_mean
+wo_handcrafted_safety,"1,2,3",60,0.7,0.15,0.15,108.30106072515639,1208.0,39.13551165262858,33.66682340304057,8.293853075026224,13.273158720663139

@@ -1,0 +1,6 @@
+base_config: config_mujoco_LSTM_SAC_seed1.yaml
+
+training:
+  seed: 4
+  log_dir: "./logs/LSTM_SAC/seed_4"
+  model_dir: "./models/LSTM_SAC/seed_4"

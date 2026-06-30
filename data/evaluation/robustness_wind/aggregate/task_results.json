@@ -1,0 +1,1311 @@
+[
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 43,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 44,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 45,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 46,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 47,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 48,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 49,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 50,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 51,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 52,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 43,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 44,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 45,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 46,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 47,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 48,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 49,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 50,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 51,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 1,
+    "city_seed": 52,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 43,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 44,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 45,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 46,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 47,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 48,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 49,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 50,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 51,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 52,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 43,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 44,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 45,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 46,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 48,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 47,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 50,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 49,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 51,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 2,
+    "city_seed": 52,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 43,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 45,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 44,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 46,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 47,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 48,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 49,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 50,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 51,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 52,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 43,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 45,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 44,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 46,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 47,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 48,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 49,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 50,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 51,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "td3",
+    "model_seed": 3,
+    "city_seed": 52,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 43,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 44,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 45,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 46,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 47,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 48,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 49,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 50,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 51,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 52,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 43,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 44,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 45,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 46,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 47,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 48,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 49,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 50,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 51,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 1,
+    "city_seed": 52,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 43,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 44,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 45,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 46,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 47,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 48,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 49,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 50,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 51,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 52,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 43,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 44,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 45,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 46,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 47,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 48,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 49,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 50,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 51,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 2,
+    "city_seed": 52,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 43,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 44,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 45,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 46,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 47,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 48,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 49,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 50,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 51,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 52,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 43,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 44,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 45,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 46,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 47,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 48,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 49,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 50,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 51,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "sac",
+    "model_seed": 3,
+    "city_seed": 52,
+    "wind_level": "strong"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 43,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 44,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 45,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 46,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 47,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 48,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 49,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 50,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 51,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 52,
+    "wind_level": "no_wind"
+  },
+  {
+    "status": "skipped",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 43,
+    "wind_level": "strong"
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 46,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 44,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 45,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 47,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 49,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 48,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 50,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 51,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 1,
+    "city_seed": 52,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 43,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 44,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 45,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 46,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 47,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 48,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 49,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 50,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 51,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 52,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 43,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 44,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 45,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 47,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 46,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 48,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 49,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 50,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 51,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 43,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 2,
+    "city_seed": 52,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 44,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 46,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 45,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 47,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 48,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 49,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 50,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 51,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 52,
+    "wind_level": "no_wind",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 43,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 44,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 45,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 46,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 47,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 48,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 49,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 50,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 51,
+    "wind_level": "strong",
+    "episodes": 100
+  },
+  {
+    "status": "completed",
+    "method": "HW_GA_SAC",
+    "model_seed": 3,
+    "city_seed": 52,
+    "wind_level": "strong",
+    "episodes": 100
+  }
+]

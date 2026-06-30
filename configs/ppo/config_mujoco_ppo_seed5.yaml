@@ -1,0 +1,6 @@
+base_config: config_mujoco_ppo_seed1.yaml
+
+training:
+  seed: 5
+  log_dir: "./logs/ppo/seed_5"
+  model_dir: "./models/ppo/seed_5"

@@ -1,0 +1,32 @@
+base_config: ../sac/config_mujoco_sac_seed3.yaml
+
+algorithm:
+  name: ppo
+
+ppo:
+  learning_rate: 0.0002
+  actor_learning_rate: 0.0001
+  critic_learning_rate: 0.0002
+  gamma: 0.998
+  gae_lambda: 0.95
+  clip_ratio: 0.2
+  entropy_coef: 0.005
+  value_coef: 0.5
+  update_epochs: 6
+  minibatch_size: 256
+  max_grad_norm: 0.5
+  device: "cuda"
+  reward_scale: 1.0
+  bootstrap_on_timeout: true
+
+training:
+  seed: 3
+  num_envs: 8
+  total_steps: 1500000
+  warmup_steps: 0
+  rollout_steps: 16384
+  batch_size: 256
+  update_log_frequency: 4096
+  eval_frequency: 1500000
+  log_dir: "./logs/ppo/seed_3"
+  model_dir: "./models/ppo/seed_3"

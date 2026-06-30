@@ -1,0 +1,34 @@
+{
+  "description": "Unified 5-seed main-comparison folder. PPO uses the fixed PPO rerun; other methods merge legacy seed1-3 seed_sweep records with seed4-5 main-comparison records.",
+  "methods": [
+    "TD3",
+    "SAC",
+    "PPO",
+    "SAC_Large",
+    "GRU_SAC",
+    "LSTM_SAC",
+    "HW_GA_SAC"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "cities": [
+    1,
+    2,
+    3,
+    4,
+    42
+  ],
+  "episodes_per_task": 200,
+  "total_tasks": 175,
+  "total_episodes": 35000,
+  "notes": [
+    "Legacy seed1-3 CSVs did not retain derived config paths; config is marked legacy_seed_sweep in normalized records.",
+    "For legacy records without best_distance, best_distance is set to final_distance for numeric completeness.",
+    "For legacy successful_path_stretch, successful episodes use the legacy path_efficiency value; failed episodes are NaN."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "methods": [
+    "ppo"
+  ],
+  "model_seeds": [
+    1,
+    2,
+    3
+  ],
+  "city_seeds": [
+    1,
+    2,
+    3,
+    4,
+    42
+  ],
+  "episodes_per_model_seed_city": 200,
+  "jobs": 2,
+  "total_episode_target": 3000
+}

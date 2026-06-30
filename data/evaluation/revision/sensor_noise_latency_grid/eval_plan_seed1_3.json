@@ -1,0 +1,28 @@
+{
+  "methods": [
+    "HW_GA_SAC"
+  ],
+  "model_seeds": [
+    1
+  ],
+  "city_seeds": [
+    1,
+    2,
+    3,
+    4,
+    42
+  ],
+  "conditions": [
+    "clean",
+    "mild_noise",
+    "moderate_noise",
+    "latency_10ms",
+    "latency_30ms",
+    "latency_50ms",
+    "mild_noise_latency_30ms",
+    "moderate_noise_latency_50ms"
+  ],
+  "episodes_per_model_seed_city_condition": 10,
+  "seed_base": 910000,
+  "total_episode_target": 400
+}

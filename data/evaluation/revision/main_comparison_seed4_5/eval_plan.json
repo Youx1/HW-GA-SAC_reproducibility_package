@@ -1,0 +1,28 @@
+{
+  "methods": [
+    "GRU_SAC",
+    "HW_GA_SAC",
+    "LSTM_SAC",
+    "PPO",
+    "SAC_Large",
+    "sac",
+    "td3"
+  ],
+  "model_seeds": [
+    4,
+    5
+  ],
+  "city_seeds": [
+    1,
+    2,
+    3,
+    4,
+    42
+  ],
+  "episodes_total": 14000,
+  "episodes_per_model_seed_city": [
+    200
+  ],
+  "updated_with": "PPO, SAC_Large, GRU_SAC, and LSTM_SAC seed4/5 baseline backfill",
+  "updated_at": "2026-06-26T11:23:47"
+}

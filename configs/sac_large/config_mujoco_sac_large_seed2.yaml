@@ -1,0 +1,19 @@
+base_config: ../sac/config_mujoco_sac_seed2.yaml
+
+algorithm:
+  name: sac-large
+
+transformer: null
+LSTM_SAC: null
+gru: null
+
+network:
+  hidden_dims: [640, 640, 512]
+  activation: "ReLU"
+
+training:
+  seed: 2
+  total_steps: 1500000
+  eval_frequency: 1500000
+  log_dir: "./logs/SAC_Large/seed_2"
+  model_dir: "./models/SAC_Large/seed_2"

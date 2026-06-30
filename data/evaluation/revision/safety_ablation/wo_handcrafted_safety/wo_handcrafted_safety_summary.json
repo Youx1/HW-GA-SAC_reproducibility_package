@@ -1,0 +1,16 @@
+[
+  {
+    "variant": "wo_handcrafted_safety",
+    "seeds": "1,2,3",
+    "episodes": 60,
+    "success_rate": 0.7,
+    "collision_rate": 0.15,
+    "timeout_rate": 0.15,
+    "reward_mean": 108.30106072515639,
+    "steps_mean": 1208.0,
+    "final_distance_mean": 39.13551165262858,
+    "best_distance_mean": 33.66682340304057,
+    "min_obstacle_distance_mean": 8.293853075026224,
+    "avg_speed_mean": 13.273158720663139
+  }
+]

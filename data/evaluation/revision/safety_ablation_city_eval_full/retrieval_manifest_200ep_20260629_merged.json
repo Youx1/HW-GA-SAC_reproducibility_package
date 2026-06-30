@@ -1,0 +1,29 @@
+﻿{
+    "name":  "safety_ablation_city_eval_full",
+    "version":  "200ep_merged_20260629",
+    "description":  "Separated safety ablation evaluation merged from balanced first/second server shards.",
+    "variants":  [
+                     "full",
+                     "wo_lidar",
+                     "wo_handcrafted_safety"
+                 ],
+    "model_seeds":  [
+                        1,
+                        2,
+                        3
+                    ],
+    "city_seeds":  [
+                       1,
+                       2,
+                       3,
+                       4,
+                       42
+                   ],
+    "episodes_per_variant_seed_city":  200,
+    "total_episodes":  9000,
+    "merged_result_dir":  "complete_eval_200ep_20260629_merged",
+    "city42_merge":  "first server: episodes 0-99; second server: episodes 100-199",
+    "replaced_previous_10ep_eval":  true,
+    "    "created_local_time":  "2026-06-29T22:58:00"
+}
+
