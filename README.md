@@ -9,8 +9,8 @@ It is intentionally not a full training or evaluation code release. Model checkp
 - `configs/`: final YAML configuration files for the reported methods and HW_GA_SAC ablations.
 - `data/evaluation/`: per-episode, per-seed, per-city, and aggregated CSV/JSON results for the paper experiments.
 - `data/indexes/`: lightweight file inventories and result indexes.
-- `data/derived/random_path_records/`: randomly sampled lightweight path records for qualitative path-behavior visualization.
-- `figures/paper_figures/`: generated manuscript figures.
+- `data/derived/random_path_records/`: randomly sampled lightweight path records corresponding to the representative trajectory data mentioned in the manuscript; these CSV files contain only step, position, and target-distance columns for qualitative path-behavior visualization.
+- `figures/paper_figures/`: manuscript figure PDFs using the same filenames as the submitted LaTeX source, with additional PNG/SVG exports for convenience.
 - `figures/city_layouts/`: top-down city-layout visualizations.
 - `scripts/`: plotting/table-generation scripts for reproducing paper figures from the processed CSV data.
 
@@ -40,4 +40,4 @@ The scripts are intended for processed-data reproduction only. They do not requi
 
 Suggested manuscript wording:
 
-> The processed experimental data required to reproduce the tables and figures in this study are publicly available in the accompanying reproducibility package. The package includes final configuration files, per-episode and aggregated CSV results, plotting scripts, randomly sampled lightweight path-record CSVs, city-layout visualizations, and inference-profiling summaries. Raw training logs, replay buffers, model checkpoints, additional non-released artifacts, and the full training/evaluation pipeline are not included because of storage and maintenance constraints, but can be made available from the corresponding author upon reasonable request.
+> The processed experimental data required to reproduce the tables and figures in this study are publicly available in the accompanying reproducibility package. The package includes final configuration files, per-episode and aggregated CSV/JSON results, representative trajectory data as randomly sampled lightweight path records, city-layout visualizations, sensor-perturbation summaries, and inference-profiling summaries. Raw training logs, replay buffers, model checkpoints, and the full MuJoCo training/evaluation pipeline are not included because of storage and maintenance constraints, but can be made available from the corresponding author upon reasonable request.
